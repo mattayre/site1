@@ -1,0 +1,65 @@
+@charset 'UTF-8';
+/* Slider Override */
+
+.slick-dots li button:before
+{
+    
+    opacity: .75;
+    color: white;
+
+
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .50;
+    color: red;
+}
+.slider{
+	max-width:400px;
+	margin:20px auto;
+	background:white;
+	text-align:left;
+}
+
+.slickcontainer{
+	background-color: rgba(0,0,0,.4);
+}
+
+.responsive {	
+	width:100%;
+	max-width:1150px;
+	margin:20px auto;
+	border:20px;
+	padding:20px;
+	text-align:left;
+}
+
+.responsive div{
+	margin:0px;
+	border:20px;
+	padding:0px;
+	border-color:green;
+	min-width:190px;
+}
+
+.responsive h3{
+	color:white;
+}
+
+.responsive p{
+	color:white;
+}
+
+.responsive img{
+	width:150px;
+	height:auto;
+	margin:0px;
+	opacity: 1;
+}
+
+.responsive img:hover{
+	width:200px;
+	height:auto;
+	margin:0px;
+	opacity: 1;
+}

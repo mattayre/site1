@@ -45,7 +45,9 @@
 	.box2{
 		display: none;
 	}
-
+	.navbar-inverse{
+		top:20px;
+	}
 	
 
 }
@@ -134,6 +136,9 @@ h4:hover {
 } 
 
 .section3cola {
+
+	
+	padding: 0px;
 	
 }
 

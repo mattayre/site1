@@ -26,25 +26,25 @@
 }
 
 .navbar-toggle{
-	background-color:transparent;
+	background-color:grey;
 	float: left;
 }
 
 .navbar-header {
-	background-color:black;		
+	background-color:grey;		
 	position: relative;
 	top: -20px;
 	left: 0px;
-	opacity: 0.8;
+	opacity: 0.6;
 	width:500px;
 }
 
 
 .navbar-inverse {
 	width: 1600px;
-	height: 0px;
+	height: 30px;
 	position: fixed;
-    top: 20px;
+    top: 0px;
     z-index: 999;
 	background-color: transparent;
 	opacity: 1;
@@ -52,8 +52,8 @@
 }
 
 .navbar-collapse {
-	background-color: transparent;
-	opacity: 0.9;
+	background-color: grey;
+	opacity: 0.8;
 
 
 		
@@ -96,6 +96,9 @@
 	opacity:1;
 	height:770px;
 	width: auto;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 	
 }
 
@@ -119,6 +122,7 @@
 
 .row {
 	margin:0px;
+	padding:0px;
 }
 
 .btn-primary{

@@ -281,7 +281,7 @@ left: 40px;
 
 .section3colc {
 	background-image:url(../images/dressbw.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 	padding:50px;
 	text-align:center;

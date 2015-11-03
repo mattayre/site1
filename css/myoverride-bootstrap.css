@@ -22,10 +22,7 @@
 }
 
 .navbar-brand{
-	background-color: transparent;
-	font-family: myfont;
-	font-size: 50px;
-	color:white!important  ;
+	
 }
 
 .navbar-toggle{
@@ -36,8 +33,8 @@
 .navbar-header {
 	background-color:transparent;		
 	position: relative;
-	top: 0px;
-	left: 20px;
+	top: -20px;
+	left: 320px;
 	opacity: 0.5;
 	width:auto;
 }
@@ -78,9 +75,8 @@
 
 .navbar-collapse li{
 	background-color: transparent;
-	font-size: 12px;
+	font-size: 16px;
 	color: white;
-	font-weight: bolder;
 	letter-spacing: 2px;
 	height: 30px;
 
@@ -94,6 +90,7 @@
 
 
 .fill {
+
 	-webkit-filter:blur(2px);
 	-webkit-filter:brightness(50%);
 	opacity:1;

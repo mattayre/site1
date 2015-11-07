@@ -47,7 +47,7 @@
     top: 0px;
     z-index: 999;
 	background-color: transparent;
-	opacity: 1;
+	opacity: .7;
 
 }
 
@@ -63,7 +63,7 @@
 }
 
 .collapse a {
-	color: white;
+	color: white !important;
 
 }
 
@@ -77,18 +77,18 @@
 
 
 .navbar-collapse li{
+	padding-top: 20px;
 	background-color: grey;
-	font-size: 16px;
-	color: white;
+	font-size: 12px;
 	letter-spacing: 2px;
-	height: 30px;
+	height: 100px;
 
 
 
 }
 .navbar-collapse li:hover {
 	background-color: transparent;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 
@@ -134,6 +134,15 @@
 	padding-left: 40px;
 	padding-right: 40px;
 }
+
 .btn-primary:hover{
+	background-color: rgba(0,0,0,.3);
+}
+
+.thumbnail .btn-primary{
+	background-color: rgba(0,0,0,0);
+}
+
+.thumbnail .btn-primary:hover{
 	background-color: rgba(0,0,0,.3);
 }

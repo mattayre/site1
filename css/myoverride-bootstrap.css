@@ -131,19 +131,11 @@
 }
 
 .btn-primary{
-	background-color: rgba(0,0,0,0);
-	padding-left: 40px;
-	padding-right: 40px;
+	background-color: rgba(255,255,255,.1);
+	
 }
 
 .btn-primary:hover{
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(64,64,64,.7);
 }
 
-.thumbnail .btn-primary{
-	background-color: rgba(0,0,0,0);
-}
-
-.thumbnail .btn-primary:hover{
-	background-color: rgba(0,0,0,.3);
-}

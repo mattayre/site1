@@ -10,7 +10,8 @@
 	-webkit-filter:brightness(100%);
 	padding: 15px;
 	height:auto;
-	width: auto;
+	
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }

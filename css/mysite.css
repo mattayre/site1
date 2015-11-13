@@ -239,7 +239,7 @@ top:-100px;
 }
 
 .box3 img{
-	-webkit-filter:brightness(50%);
+	-webkit-filter:brightness(30%);
 	width: 100%;
 	height: auto;
 	margin-left: auto;

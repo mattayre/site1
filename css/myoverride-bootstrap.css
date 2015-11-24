@@ -1,61 +1,154 @@
 /* my overides for bootstrap */
-
+.wrapper {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 .mediawidth {
 	color: white;
 }
 
-.thumbnail {
+.intro{
+	overflow: hidden;
 	background-color: white;
-	border:solid 2px black;
-	-webkit-filter:brightness(100%);
-	padding: 15px;
+	padding: 0px;
 	height:auto;
-	
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.thumbnail:hover{
-	-webkit-filter:brightness(70%);
-	padding:15px;
-	text-align: center;
+.intro img {
+	-webkit-filter:brightness(40%);
+	background-color: white;
+	border: 0px;
+	padding:0px;
+	-webkit-transform:scale(1.4);
+    transform:scale(1.4);   	
 }
 
-.navbar-brand{
+.intro img:hover{
+	-webkit-transition: all 1s;
+	-webkit-filter:brightness(100%);
+	border:0px;
+	padding: 0px;
+	-webkit-transform:scale(1);
+    transform:scale(1);
+}
+
+.fancytext{
+	font-family: myfont;
+	position:absolute;
+	font-size:3.9em;
+	color:white;
+	width:80%;
+	left:10%;
+	right:10%;
+	top:20%;
+	pointer-events:none;
+}
+.wedphoto{
+	border-radius: 0px;
+	background-color: white;
+	overflow: hidden;
+	width: auto;
+	height:auto;
+	border: 0px;
+	padding: 0px;
+	margin:0px;
+}
+.wedphoto img{
+	-webkit-filter:brightness(30%);
+	background-color: white;
+	border: 0px;
+	padding:0px;
+	-webkit-transform:scale(1.4);
+    transform:scale(1.4);
+    	
+}
+.wedphoto img:hover{
+	-webkit-transition: all 1s;
+	-webkit-filter:brightness(100%);
+	border:0px;
+	padding: 0px;
+	-webkit-transform:scale(1);
+    transform:scale(1);
+}
+.wedphoto p{
+	font-family: myfont;
+	position:absolute;
+	font-size:3.2em;
+	color:white;
+	width:50%;
+	top:35%;
+	left:25%;
+	pointer-events:none;
 	
 }
+@media screen and (max-width:600px) {
+	.wedphoto p{
+	font-size: 5em;
+	}
 
-.navbar-toggle{
-	background-color:grey;
-	float: left;
+
+}
+.navbar-brand{
+	-webkit-filter:brightness(140%);
+	position: relative;
+	left:0px;
+	top: -110px;
+}
+@media (max-width: 992px) {
+  .navbar-brand{
+	top: -90px;
+	}
+  .logo {
+  	height:150px;
+  	width: 150px;
+
+  }
+
+}
+@media screen and (max-width:767px) {
+	.navbar-brand{
+	top: -80px;
+	}
+	.logo{
+		height:130px;
+		width:130px;
+	}
 }
 
+
+.navbar-toggle{
+	background-color:transparent;
+	float: right;
+}
+
+}
 .navbar-header {
-	background-color:grey;		
-	position: relative;
-	top: -20px;
+	background-color:transparent;		
+	top: 0px;
 	left: 0px;
-	opacity: 0.6;
-	width:500px;
+	opacity: 1;
+	width:100%;
 }
 
 
 .navbar-inverse {
-	width: 1600px;
-	height: 30px;
+	height:60px;
+	width: 100%;
+	z-index:999;
 	position: fixed;
-    top: 0px;
-    z-index: 999;
 	background-color: transparent;
-	opacity: .7;
+	opacity: 1;
 
 }
 
 .navbar-collapse {
 	position: relative;
 	top: -20px;
-	background-color: grey;
+	background-color:transparent;
 	opacity: 1;
 	
 
@@ -64,7 +157,10 @@
 }
 
 .collapse a {
+	font-size: 1em;
 	color: white !important;
+	font-weight: 700;
+	font-weight: bolder;
 
 }
 
@@ -78,32 +174,49 @@
 
 
 .navbar-collapse li{
+	margin-top: 20px;
 	padding-top: 20px;
-	background-color: grey;
-	font-size: 12px;
-	letter-spacing: 2px;
+	background-color: transparent;
+	font-size: 1em;
+	letter-spacing: 1px;
 	height: 100px;
-
-
-
 }
 .navbar-collapse li:hover {
-	background-color: transparent;
-	font-size: 16px;
+	background-color:#ff66a3 ;
+	opacity: .4;
+	-webkit-transition:all 2s;
 }
+
+
+@media screen and (max-width:767px) {
+	.navbar-collapse li{
+	background-color: #ff66a3;
+	height: 80px;
+	}
+	.navbar-collapse li:hover {
+	opacity: .2;
+	-webkit-transition:all 2s;
+	}
+	.collapse a:hover {
+	color:;
+	}
+}
+
 
 
 .fill {
-
 	-webkit-filter:blur(2px);
-	-webkit-filter:brightness(50%);
+	-webkit-filter:brightness(20%);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  	background-position:center center;
 	opacity:1;
 	height:770px;
 	width: auto;
 	margin: 0px;
 	padding: 0px;
-	border: 0px;
-	
+	border: 0px;	
 }
 
 .carousel-caption {
@@ -116,26 +229,54 @@
 
 .carousel-caption h1{
 	color:white;
-	font-size:90px;
+	font-size:6.5em;
 	letter-spacing: 0px;
   	font-weight: bolder;
   	text-align: center;
-  	
   	font-family: myfont;
-
 }
-
+@media screen and (max-width:767px) {
+.carousel-caption h1{
+	font-size:4em;
+    }
+}
+@media screen and (max-width:480px) {
+.carousel-caption h1{
+	font-size:2.7em;
+    }
+}
 .row {
 	margin:0px;
 	padding:0px;
 }
 
 .btn-primary{
-	background-color: rgba(255,255,255,.3);
+	background-color: #ff66a3;
+	opacity: .7;
+	border:solid 0px;
+	border-color:black;
+	font-size:1em;
+	color:white;
+	font-weight: 700;
+	letter-spacing:2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 3px;
+	margin-bottom: 40px;
+	box-shadow: 0 3px #800040;
 	
 }
 
 .btn-primary:hover{
-	background-color: rgba(64,64,64,.7);
+	background-color: #ff66a3;
+	opacity: .9;
+	border:solid 0px;
+	border-color:black;
+	color:white;
+	letter-spacing:2px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	box-shadow: 0 1px #800040;
+	-webkit-transition:all .5s;
 }
 

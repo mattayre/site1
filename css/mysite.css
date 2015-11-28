@@ -60,9 +60,7 @@
 	}
 	.fancytext{
 	font-size:3em;
-	width:50%;
-	top:20%;
-	left:25%;
+	
 	}
 
 }
@@ -253,6 +251,7 @@ h4:hover {
 }
 @media screen and (max-width:767px) {
 	.statement{
+		background-attachment: scroll;
 		padding-top: 20px;
 		padding-bottom: 20px;
 		padding-left: 10px;

@@ -316,7 +316,7 @@ h4:hover {
 .companyprofile hr{
 	border-color:#646a6e;
 	border-width: 2px;
-	width: 60%;
+	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -334,24 +334,25 @@ h4:hover {
 		line-height: 32px;
 	}	
 }
-    
-.justifycontent {
-	text-align:justify;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 0px;
-	padding-right: 0px;
-}
+  
 .justifycontent h3{
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	color:#444444;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	line-height: 45px;
 	letter-spacing: 4px;
 	font-weight:bold;
     -webkit-font-smoothing:antialiased;
 }
-.justifycontent{
+	  
+.justifycontent {
+	text-align:justify;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
 	color:#646a6e;
 	font-size: 1.2em;
 	line-height: 32px;
@@ -359,11 +360,13 @@ h4:hover {
 	font-weight: 100;
     -webkit-font-smoothing:antialiased;
 	}
+}
+
 
 @media screen and (max-width:767px){
 	.justifycontent{
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	.justifycontent h3{
 		font-size: 1.3em;
@@ -375,9 +378,9 @@ h4:hover {
 }
     
 .justifycontent hr{
-	border-color: black;
-	border-width: 1px;
-	width: 300px;
+	border-color:#646a6e;
+	border-width: 2px;
+	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
 }

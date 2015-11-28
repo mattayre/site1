@@ -19,21 +19,21 @@
 	margin-right: auto;
 }
 .intro img {
-	-webkit-filter:brightness(40%);
+	-webkit-filter:brightness(30%);
 	background-color: white;
 	border: 0px;
 	padding:0px;
-	-webkit-transform:scale(1.4);
-    transform:scale(1.4);   	
+	-webkit-transform:scale(1);
+    transform:scale(1);   	
 }
 
 .intro img:hover{
 	-webkit-transition: all 1s;
-	-webkit-filter:brightness(100%);
+	-webkit-filter:brightness(15%);
 	border:0px;
 	padding: 0px;
-	-webkit-transform:scale(1);
-    transform:scale(1);
+	-webkit-transform:scale(1.5);
+    transform:scale(1.5);
 }
 
 .fancytext{

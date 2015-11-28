@@ -60,7 +60,9 @@
 	}
 	.fancytext{
 	font-size:3em;
-	
+	width:80%;
+	left:10%;
+	right:10%;
 	}
 
 }

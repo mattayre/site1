@@ -239,8 +239,8 @@ h4:hover {
 
 }
 
-.statement {
-	background-image:url(../images/dressbw2.jpg);
+.statement{
+	background-image:url(../images/dressbnw.png);
 	
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -277,7 +277,7 @@ h4:hover {
 }
 .statement p{
 	color:white;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 45px;
 	letter-spacing: 0px;
 	font-family: playfairfont;
@@ -291,6 +291,7 @@ h4:hover {
 	line-height: 35px;	
 	}
 }
+
 .companyprofile {
 	text-align:center;
 	padding: 50px;

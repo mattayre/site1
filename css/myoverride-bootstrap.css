@@ -279,10 +279,16 @@
 	top:20%;
 	
 	letter-spacing: 10px;
-	
-
 }
-
+@media screen and (max-width:480px) {
+	.carousel-caption {
+	width:100%;
+	left: 0%;
+	top:20%;
+	
+	letter-spacing: 10px;
+	}
+}
 .carousel-caption h1{
 	color:white;
 	font-size:5em;
